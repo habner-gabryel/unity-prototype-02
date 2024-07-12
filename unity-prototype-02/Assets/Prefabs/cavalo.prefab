@@ -772,6 +772,7 @@ GameObject:
   m_Component:
   - component: {fileID: 249389879182073}
   - component: {fileID: 6735482617811187456}
+  - component: {fileID: 1119885610141559171}
   m_Layer: 0
   m_Name: SA_Animal_Horse_Black
   m_TagString: Untagged
@@ -887,6 +888,27 @@ SkinnedMeshRenderer:
     m_Center: {x: 0, y: -0.8832464, z: 11.784651}
     m_Extent: {x: 5.571748, y: 18.315586, z: 21.710882}
   m_DirtyAABB: 0
+--- !u!65 &1119885610141559171
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3805061362538338310}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 11.143496, y: 36.631172, z: 43.421764}
+  m_Center: {x: 0, y: 18.315582, z: 4.33708}
 --- !u!1 &3818463238800766434
 GameObject:
   m_ObjectHideFlags: 0
@@ -899,6 +921,7 @@ GameObject:
   - component: {fileID: 7825361737319586078}
   - component: {fileID: 5739392202130857903}
   - component: {fileID: -3388999668162788999}
+  - component: {fileID: 8241177745665641251}
   m_Layer: 0
   m_Name: cavalo
   m_TagString: Untagged
@@ -960,7 +983,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6a1854a2b497acf3aad7f7ba437716e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 30
+  speed: 15
 --- !u!114 &-3388999668162788999
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -973,6 +996,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7d160d400216392caad9972e0b53781, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &8241177745665641251
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3818463238800766434}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 11.420879, y: 36.777847, z: 42.845783}
+  m_Center: {x: 0.09522438, y: 18.211407, z: 4.656248}
 --- !u!1 &3961384694678666750
 GameObject:
   m_ObjectHideFlags: 0
