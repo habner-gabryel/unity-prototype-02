@@ -15,12 +15,12 @@ public class SpawnManagerX : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        InvokeRepeating("SpawnRandomBall", startDelay, Random.Range(0.9F, spawnInterval));
+        InvokeRepeating("SpawnRandomBall", startDelay, Random.Range(3, spawnInterval));
     }
 
     void OnInvokeRepeating()
     {
-        float newDelay = Random.Range(0.9F, spawnInterval);
+        float newDelay = Random.Range(3, spawnInterval);
 
         CancelInvoke("SpawnRandomBall");
 
