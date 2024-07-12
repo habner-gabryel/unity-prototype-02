@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5230929893576714937}
   - component: {fileID: 4432226069111456396}
   - component: {fileID: 722244957828437869}
+  - component: {fileID: 8607155114107992955}
   m_Layer: 0
   m_Name: osso
   m_TagString: Untagged
@@ -94,5 +95,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6a1854a2b497acf3aad7f7ba437716e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 30
+--- !u!114 &8607155114107992955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4065128736524185781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7d160d400216392caad9972e0b53781, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
