@@ -5,7 +5,7 @@ using UnityEngine;
 public class MoveForward : MonoBehaviour
 {
 
-    private float speed = 30F;
+    public float speed = 30F;
     // Start is called before the first frame update
     void Start()
     {
