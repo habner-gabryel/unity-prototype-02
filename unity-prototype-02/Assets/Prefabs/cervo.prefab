@@ -800,6 +800,7 @@ GameObject:
   - component: {fileID: 7905041414561948846}
   - component: {fileID: 3708381977468886934}
   - component: {fileID: 3483621658808472707}
+  - component: {fileID: 359139566342316942}
   m_Layer: 0
   m_Name: cervo
   m_TagString: Untagged
@@ -897,8 +898,20 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.12240829, y: 0.45436248, z: 0.40087909}
-  m_Center: {x: 0.00071475183, y: 0.22605917, z: 0.041152008}
+  m_Size: {x: 0.1438373, y: 0.45436245, z: 0.40087909}
+  m_Center: {x: 0.00021809882, y: 0.22605918, z: 0.041152008}
+--- !u!114 &359139566342316942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8368332148447243542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26184f21f2cebd797aecd9691e21f5b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &9011078127677661131
 GameObject:
   m_ObjectHideFlags: 0

@@ -608,6 +608,7 @@ GameObject:
   - component: {fileID: 6185050766528667295}
   - component: {fileID: 1851248546890803977}
   - component: {fileID: 8644343364320116768}
+  - component: {fileID: 1138570899374970846}
   m_Layer: 0
   m_Name: raposa
   m_TagString: Untagged
@@ -709,6 +710,18 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.056833934, y: 0.20404172, z: 0.31264582}
   m_Center: {x: 0.00012431145, y: 0.10202086, z: 0.01113267}
+--- !u!114 &1138570899374970846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7550036890489858548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26184f21f2cebd797aecd9691e21f5b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7808879812630622125
 GameObject:
   m_ObjectHideFlags: 0

@@ -922,6 +922,7 @@ GameObject:
   - component: {fileID: 5739392202130857903}
   - component: {fileID: -3388999668162788999}
   - component: {fileID: 8241177745665641251}
+  - component: {fileID: -4684407152153799746}
   m_Layer: 0
   m_Name: cavalo
   m_TagString: Untagged
@@ -1017,6 +1018,18 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 11.420879, y: 36.777847, z: 42.845783}
   m_Center: {x: 0.09522438, y: 18.211407, z: 4.656248}
+--- !u!114 &-4684407152153799746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3818463238800766434}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26184f21f2cebd797aecd9691e21f5b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3961384694678666750
 GameObject:
   m_ObjectHideFlags: 0
