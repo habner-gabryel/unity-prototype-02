@@ -16,8 +16,17 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        horizontalInput = Input.GetAxis("Horizontal");
 
-        transform.Translate(new Vector3(speed * horizontalInput * Time.deltaTime, 0, 0));
+        horizontalInput = Input.GetAxis("Horizontal");
+        transform.Translate(Vector3.right * horizontalInput * Time.deltaTime * speed);
+
+        if(transform.position.x < -18 && horizontalInput != 0){
+           transform.position = new Vector3(-18, transform.position.y, transform.position.z);
+        }
+        if(transform.position.x > 18 && horizontalInput != 0){
+           transform.position = new Vector3(18, transform.position.y, transform.position.z);
+        }
+
+
     }
 }
