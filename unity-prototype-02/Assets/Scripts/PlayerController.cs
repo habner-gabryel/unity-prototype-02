@@ -6,6 +6,7 @@ public class PlayerController : MonoBehaviour
 {
     private float horizontalInput;
     private float speed = 13F;
+    private float xRange = 18;
 
     // Start is called before the first frame update
     void Start()
@@ -20,11 +21,11 @@ public class PlayerController : MonoBehaviour
         horizontalInput = Input.GetAxis("Horizontal");
         transform.Translate(Vector3.right * horizontalInput * Time.deltaTime * speed);
 
-        if(transform.position.x < -18 && horizontalInput != 0){
-           transform.position = new Vector3(-18, transform.position.y, transform.position.z);
+        if(transform.position.x < -xRange && horizontalInput != 0){
+           transform.position = new Vector3(-xRange, transform.position.y, transform.position.z);
         }
-        if(transform.position.x > 18 && horizontalInput != 0){
-           transform.position = new Vector3(18, transform.position.y, transform.position.z);
+        if(transform.position.x > xRange && horizontalInput != 0){
+           transform.position = new Vector3(xRange, transform.position.y, transform.position.z);
         }
 
 
