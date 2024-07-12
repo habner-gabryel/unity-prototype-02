@@ -2557,6 +2557,7 @@ GameObject:
   - component: {fileID: 7848419928573797593}
   - component: {fileID: 6427900503489023324}
   - component: {fileID: 4293114055375305025}
+  - component: {fileID: -8927299007448441640}
   m_Layer: 0
   m_Name: cachorro
   m_TagString: Untagged
@@ -2647,6 +2648,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6a1854a2b497acf3aad7f7ba437716e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 30
+--- !u!114 &-8927299007448441640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4667812254601664665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7d160d400216392caad9972e0b53781, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &4812404394175145442

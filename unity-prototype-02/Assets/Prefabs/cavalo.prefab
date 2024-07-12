@@ -898,6 +898,7 @@ GameObject:
   - component: {fileID: 6554411080817290912}
   - component: {fileID: 7825361737319586078}
   - component: {fileID: 5739392202130857903}
+  - component: {fileID: -3388999668162788999}
   m_Layer: 0
   m_Name: cavalo
   m_TagString: Untagged
@@ -957,6 +958,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6a1854a2b497acf3aad7f7ba437716e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 30
+--- !u!114 &-3388999668162788999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3818463238800766434}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7d160d400216392caad9972e0b53781, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &3961384694678666750
