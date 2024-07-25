@@ -606,9 +606,8 @@ GameObject:
   - component: {fileID: 6398864951164733118}
   - component: {fileID: 7727134863138892077}
   - component: {fileID: 6185050766528667295}
-  - component: {fileID: 1851248546890803977}
   - component: {fileID: 8644343364320116768}
-  - component: {fileID: 1138570899374970846}
+  - component: {fileID: 8704522328556978672}
   m_Layer: 0
   m_Name: raposa
   m_TagString: Untagged
@@ -677,18 +676,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 9
---- !u!114 &1851248546890803977
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7550036890489858548}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b7d160d400216392caad9972e0b53781, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &8644343364320116768
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -710,7 +697,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.056833934, y: 0.20404172, z: 0.31264582}
   m_Center: {x: 0.00012431145, y: 0.10202086, z: 0.01113267}
---- !u!114 &1138570899374970846
+--- !u!114 &8704522328556978672
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -719,7 +706,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7550036890489858548}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 26184f21f2cebd797aecd9691e21f5b2, type: 3}
+  m_Script: {fileID: 11500000, guid: 81e62e9a8a22fac478a927ce940e28f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &7808879812630622125

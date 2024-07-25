@@ -2557,9 +2557,8 @@ GameObject:
   - component: {fileID: 7848419928573797593}
   - component: {fileID: 6427900503489023324}
   - component: {fileID: 4293114055375305025}
-  - component: {fileID: -8927299007448441640}
   - component: {fileID: 9093300831437926412}
-  - component: {fileID: 5987557432702979954}
+  - component: {fileID: 515156525654343905}
   m_Layer: 0
   m_Name: cachorro
   m_TagString: Untagged
@@ -2653,18 +2652,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
---- !u!114 &-8927299007448441640
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4667812254601664665}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b7d160d400216392caad9972e0b53781, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &9093300831437926412
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2686,7 +2673,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.0880539, y: 0.2124883, z: 0.26912412}
   m_Center: {x: 0.0016941071, y: 0.10497695, z: 0.03160615}
---- !u!114 &5987557432702979954
+--- !u!114 &515156525654343905
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2695,7 +2682,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4667812254601664665}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 26184f21f2cebd797aecd9691e21f5b2, type: 3}
+  m_Script: {fileID: 11500000, guid: 81e62e9a8a22fac478a927ce940e28f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &4812404394175145442

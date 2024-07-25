@@ -798,9 +798,8 @@ GameObject:
   - component: {fileID: 3945114868193611847}
   - component: {fileID: 7692416819843588420}
   - component: {fileID: 7905041414561948846}
-  - component: {fileID: 3708381977468886934}
   - component: {fileID: 3483621658808472707}
-  - component: {fileID: 359139566342316942}
+  - component: {fileID: 1548997970423978223}
   m_Layer: 0
   m_Name: cervo
   m_TagString: Untagged
@@ -867,18 +866,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 14
---- !u!114 &3708381977468886934
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8368332148447243542}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b7d160d400216392caad9972e0b53781, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &3483621658808472707
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -900,7 +887,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.1438373, y: 0.45436245, z: 0.40087909}
   m_Center: {x: 0.00021809882, y: 0.22605918, z: 0.041152008}
---- !u!114 &359139566342316942
+--- !u!114 &1548997970423978223
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -909,7 +896,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8368332148447243542}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 26184f21f2cebd797aecd9691e21f5b2, type: 3}
+  m_Script: {fileID: 11500000, guid: 81e62e9a8a22fac478a927ce940e28f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &9011078127677661131
